@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-bottom: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .fullpage {
+    text-align: center;
+    min-height: 550px;
+    max-width: 1920px;
+background-image: url('/Images/Background.png');   background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  nav  {
+    margin-bottom: -70px;
+    height: 90px;
+    background-color: grey;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .logo {
+    text-align: center;
+background-color: black;  }
+  .logo img {
+    padding-top: 3%;
+    padding-left: 20%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+  }
+  
+  
+  .title {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    margin-top: 150px;
+  }
+  
+  .text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .description {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .container {
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-evenly;
+  }
+
+  .container .background {
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    margin-bottom: 150px;
+  }
+ 
+  .container .background img {
+    max-width: 70%;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+.backgroundConvergence {
+  height: 70%;
+  background-color: grey;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin: 0 auto;
+  width: 500px;
+  align-items: center;
+  justify-content: space-evenly;
+  display: grid;
+  position: relative;
+}
+.characterCards img {
+  margin-left: ;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center; 
+  justify-content: center;
+  display:grid;
+}
+  
+.container .background video {
+  max-width: 90%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+}
+
